@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\milli\source\repos\SDLProject\SDLProject\</FILEPATH>
+      <FILENAME>UlamSpiral.h</FILENAME>
+      <LINE>21</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 's'. </DESCRIPTION>
+    <FUNCTION>newSpiral</FUNCTION>
+    <DECORATED>?newSpiral@@YAPEAU_spiral@@H@Z</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\milli\source\repos\SDLProject\SDLProject\</FILEPATH>
+        <FILENAME>UlamSpiral.h</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'s' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\milli\source\repos\SDLProject\SDLProject\</FILEPATH>
+        <FILENAME>UlamSpiral.h</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'s' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT></DEFECTS>
